@@ -1,7 +1,7 @@
 // ==UserSubscribe==
 // @name         Flexxon Team Internal Tools
 // @description  Shared scripts for the team
-// @version      1.1.0
+// @version      1.1.3
 // @connect      script.google.com
 // @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/gmail-customizedstylefordarkmode.js
 // @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-addrefreshpagetimer.js

@@ -5,4 +5,5 @@
 // @connect      script.google.com
 // @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/systemtheme.js
 // @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/systempickingslip.js
+// @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/systemdetailpackinginfo.js
 // ==/UserSubscribe==

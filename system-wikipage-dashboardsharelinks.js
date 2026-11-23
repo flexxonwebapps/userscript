@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Acumatica Live - [Dashboard]: Share Links
 // @namespace    http://tampermonkey.net/
-// @version      1.1.0
+// @version      1.0.2
 // @description  Dashboard customizable share links by adding header widgets.
 // @author       You
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
@@ -23,6 +23,10 @@
       if(checkLoad===0){
         var loopTimer = setInterval(function(){
           var dashPage = d.getElementById('ctl00_phDS_dashSet'), docInfo = [];
+          if(!dashPage){
+            console.log('UserJS(WikiPage):: "ctl00_phDS_dashSet" element is not found yet.');
+            return;
+          }
           var rowElm1 = dashPage.getElementsByTagName('DIV');
           if(rowElm1[0].className == 'row'){
             var aRows = rowElm1[0].getElementsByTagName('DIV'), rNbr, rElms = [];
@@ -53,6 +57,7 @@
                   listHTML += '<li><a onclick="backActive(this);return openLocation(this.href);" title="✦File::  '+docInfo[i][0].substring(0,(dotIdx==-1?docInfo[i][0].length:dotIdx)).replace(/<[^>]*>?/gm,'').replace(/(^\s+|\s+$)/g,'')+' \n✦Type::  '+docType.replace(/<[^>]*>?/gm,'').toUpperCase()+' \n✦Description::  '+((docInfo[i][2]||'-').replace(/<[^>]*>?/gm,'').replace(/(^\s+|\s+$)/g,''))+' \n✦URL::  '+docInfo[i][1].replace(/(^\s+|\s+$)/g,'').replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")+'" href="'+(docInfo[i][1].replace(/(^\s+|\s+$)/g,'').replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">") )+'"><b>'+docInfo[i][0].substring(0,(dotIdx==-1?docInfo[i][0].length:dotIdx)).replace(/(^\s+|\s+$)/g,'')+'</b><i class="srcDescription">'+((docInfo[i][2]||'-').replace(/(^\s+|\s+$)/g,''))+'</i><span class="ui-li-count '+docType+'">'+docType.toUpperCase()+'</span></a></li>';
                 }
               }
+              wikiRun2nd();
               clearInterval(loopTimer);
               var sTagNM = 'scr'+'ipt';
               appDoc.open();
@@ -72,7 +77,9 @@
   }
 
   function wikiRun2nd(){
-    var d = document, f = d.getElementById('wikilogisticlinks'), dashWrapper = f.parentNode;
+    var d = document, f = d.getElementById('wikilogisticlinks');
+    if(!f) setTimeout(wikiRun2nd,600);
+    var dashWrapper = f.parentNode;
     if(dashWrapper.id == 'ctl00_phDS_form_edContent_divContent'){
       f.style.position = 'relative';
       f.style.height = '400px';
@@ -113,7 +120,7 @@
       clearInterval(screenTimer);
       screenTimer=null;
       var sID = __screenID.replace(/\./g,'').toString();
-      if(sID == 'DB000103') checkReqElementToRun([wikiRun1st,wikiRun2nd]);
+      if(sID == 'DB000103') checkReqElementToRun([wikiRun1st]);
       //if(sID == 'DB000103') checkReqElementToRun();
     }
   },600);

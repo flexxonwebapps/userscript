@@ -2,7 +2,7 @@
 // @name         Gmail Addon Style for Dark Mode
 // @namespace    http://tampermonkey.net/
 // @version      2025-05-15
-// @description  Gmail Addon Style
+// @description  📧 Gmail Addon Style
 // @author       You
 // @match        https://mail.google.com/mail/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com

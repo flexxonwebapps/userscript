@@ -113,8 +113,8 @@
       clearInterval(screenTimer);
       screenTimer=null;
       var sID = __screenID.replace(/\./g,'').toString();
-      if(sID == 'DB000103') checkReqElement([wikiRun1st,wikiRun2nd]);
-      //if(sID == 'DB000103') checkReqElement();
+      if(sID == 'DB000103') checkReqElementToRun([wikiRun1st,wikiRun2nd]);
+      //if(sID == 'DB000103') checkReqElementToRun();
     }
   },600);
 })();

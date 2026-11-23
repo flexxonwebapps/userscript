@@ -99,7 +99,44 @@
       }
     }
   }
-
+  
+  function addCustomCSS(){
+    var myCSS = `
+              div.widget-captionbar div.widget_caption__title {
+                display:block;
+                position:relative;
+                height:auto;
+                min-height: 24px;
+                color: #fff;
+                font-family: arial;
+                font-size: 16px;
+                font-weight: bold;
+                text-align: center;
+                background: purple;
+                box-shadow: 0 0 10px #222;
+                padding: 10px;
+                margin: 0;
+                z-index:9999;
+              }
+              div.widget-caption__title {
+            	white-space: nowrap;
+            	overflow: hidden;
+            	text-overflow: ellipsis;
+              }
+              div#ctl00_phDS_dashSet.Dashboards.design div.widget-caption__title {
+            	margin-right: 108px;
+              }
+              div.dash-wrapper.dashboard__caption-widget div.toolBar.design {
+                    background: transparent;
+              }
+    `;
+      var d = document, sTag = d.createElement('STYLE');
+      var fCSS = d.createTextNode(s);
+      sTag.appendChild(fCSS);
+      var h = d.getElementsByTagName('head')[0]||d.body;
+      h.appendChild(sTag);
+  }
+  
   function checkReqElementToRun(fnArray){
     setTimeout(function(){
       var d = document;
@@ -120,7 +157,7 @@
       clearInterval(screenTimer);
       screenTimer=null;
       var sID = __screenID.replace(/\./g,'').toString();
-      if(sID == 'DB000103'||sID == 'DB000099') checkReqElementToRun([wikiRun1st]);
+      if(sID == 'DB000103'||sID == 'DB000099') checkReqElementToRun([addCustomCSS,wikiRun1st]);
     }
   },600);
 })();

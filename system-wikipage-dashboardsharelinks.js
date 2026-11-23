@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Acumatica Live - [Dashboard]: Share Links
 // @namespace    http://tampermonkey.net/
-// @version      1.0.3
+// @version      1.0.4
 // @description  Dashboard customizable share links by adding header widgets.
 // @author       You
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*

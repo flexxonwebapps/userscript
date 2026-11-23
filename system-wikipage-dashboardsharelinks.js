@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Acumatica Live - [Dashboard]: Share Links
 // @namespace    http://tampermonkey.net/
-// @version      1.0.2
+// @version      1.0.3
 // @description  Dashboard customizable share links by adding header widgets.
 // @author       You
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
@@ -120,8 +120,7 @@
       clearInterval(screenTimer);
       screenTimer=null;
       var sID = __screenID.replace(/\./g,'').toString();
-      if(sID == 'DB000103') checkReqElementToRun([wikiRun1st]);
-      //if(sID == 'DB000103') checkReqElementToRun();
+      if(sID == 'DB000103'||sID == 'DB000099') checkReqElementToRun([wikiRun1st]);
     }
   },600);
 })();

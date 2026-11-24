@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Acumatica Live: [FLX MRP Display] - Add up QTY.on.Hand to Assigned Columns & add copy button
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/flexxonwebapps
 // @version      26.1124.1
 // @description  Add up QTY.on.Hand to related Available Acutal and Total Demand/Supply columns, with copy existing data button.
 // @author       You

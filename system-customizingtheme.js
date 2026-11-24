@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         Acumatica Live: [*] - FLexxon Theme (Customizable)
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      26.1124.1
 // @description  Replace system color with Flexxon logo and defaulted as purple theme, but it is customizable.
 // @author       Martin M
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
 // @icon         https://www.flexxon.com/wp-content/uploads/2021/04/cropped-Favicon-1-1.ico
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-customizingtheme.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-customizingtheme.js
 // @grant        none
 // ==/UserScript==
 

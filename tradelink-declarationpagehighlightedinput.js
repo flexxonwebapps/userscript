@@ -5,8 +5,8 @@
 // @description  HK Declaration System (Tradelink) - Page CSS - Highlight & added hotkey for calculator.
 // @author       You
 // @match        https://cloud.tradelinksig.com/scm-tdec-app/*.do*
-// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/tradelink-declarationpagehighlightedinput.js
-// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/tradelink-declarationpagehighlightedinput.js
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/bundle.user.sub.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/bundle.user.sub.js
 // @icon         https://www.tradelink-ebiz.com//img/logo/favicon.png
 // @grant        none
 // ==/UserScript==

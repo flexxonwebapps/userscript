@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Acumatica Live: Reshresh-Page & Adjust-Height Automation
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/flexxonwebapps
 // @version      26.1124.1
 // @description  [Customizable] Set page by ID to auto-refresh the page by specific time.
 // @author       Martin M

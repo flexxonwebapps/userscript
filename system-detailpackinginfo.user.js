@@ -23,7 +23,7 @@ function getAcumaticaTableData(tableID,nRowID){
             v = '';
             var dTDs = dHead.getElementsByTagName('TD'), dTD_L = dTDs.length;
             for(var iii=0; iii<dTD_L; iii++){
-                v += dTDs[iii].innerHTML||'';
+                v += (dTDs[iii].innerHTML||'').replace(/<[^>]*>?/gm,'').replace(/(^\s+|\s+$)/g,"");
                 v += String.fromCharCode((iii==dTD_L-1)?10:9);
             }
         }
@@ -43,15 +43,15 @@ function getAcumaticaTableData(tableID,nRowID){
     }; return v;
 }
 function returnHeaderIndex(headerData){
-    var idx = {};
+    var idx = {CartonNbr:-1,QTY:-1,NW:-1,GW:-1,L:-1,W:-1,H:-1};
     for(var i=0;i<headerData.length;i++){
-        if(headerData[i] == 'Carton') idx.CartonNbr = i;
-        if(headerData[i] == 'Qty'||headerData[i] == 'Quantity') idx.QTY = i;
-        if(headerData[i] == 'Net Weight') idx.NW = i;
-        if(headerData[i] == 'Gross Weight') idx.GW = i;
-        if(headerData[i] == 'Length') idx.L = i;
-        if(headerData[i] == 'Width') idx.W = i;
-        if(headerData[i] == 'Height') idx.H = i;
+        if(headerData[i] == 'Carton' && idx.CartonNbr==-1) idx.CartonNbr = i;
+        if((headerData[i] == 'Qty'||headerData[i] == 'Quantity') && idx.QTY==-1) idx.QTY = i;
+        if(headerData[i] == 'Net Weight' && idx.NW==-1) idx.NW = i;
+        if(headerData[i] == 'Gross Weight' && idx.GW==-1) idx.GW = i;
+        if(headerData[i] == 'Length' && idx.L==-1) idx.L = i;
+        if(headerData[i] == 'Width' && idx.W==-1) idx.W = i;
+        if(headerData[i] == 'Height' && idx.H==-1) idx.H = i;
     }
     return idx;
 }
@@ -72,7 +72,7 @@ function loadChargeWeightInfo(nRowID){
     if(newRow){
         var iBtn = d.getElementById('chargingweightarea');
         if(iBtn){
-            var pkData = getAcumaticaTableData('ctl00_phG_tab_t3_gridPackages_dataT0',nRowID);
+            var pkData = getAcumaticaTableData('ctl00_phG_tab_t6_gridPackages_dataT0',nRowID);
             var dBody = newRow.parentNode;
             var dRows = dBody.getElementsByTagName('TR'), cwTotal = 0, gwTotal = 0, vwTotal = 0, cbmTotal = 0, m3Total = 0, ctnTotal = 0;
             if(dRows.length>1){
@@ -80,6 +80,7 @@ function loadChargeWeightInfo(nRowID){
                 for(var ii=0;ii<pkData.length;ii++){
                     if(ii==0){
                         headerData = pkData[ii].split(/\t/);
+                        console.log(JSON.stringify(headerData));
                     }
                     if(ii>0){
                         pkContent.push( pkData[ii].split(/\t/) );
@@ -90,6 +91,7 @@ function loadChargeWeightInfo(nRowID){
                     var idx = returnHeaderIndex(headerData), rNbrs = [], rSize = [];
                     for(var i=0;i<dL;i++){
                         rNbrs[i] = [(pkContent[i][idx.CartonNbr]||''),(parseFloat(pkContent[i][idx.NW])||0),(parseFloat(pkContent[i][idx.GW])||0),(parseFloat(pkContent[i][idx.L])||0),(parseFloat(pkContent[i][idx.W])||0),(parseFloat(pkContent[i][idx.H])||0)];
+                        console.log(JSON.stringify([idx.CartonNbr,idx.NW,idx.NW,idx.GW,idx.L,idx.W,idx.H]));
                         if(rNbrs[i][2]) gwTotal = gwTotal + rNbrs[i][2];
                         if(rNbrs[i][2] || (rNbrs[i][3]&&rNbrs[i][4]&&rNbrs[i][5])){
                             rSize[i] = rNbrs[i][3]*rNbrs[i][4]*rNbrs[i][5];
@@ -109,7 +111,7 @@ function loadChargeWeightInfo(nRowID){
 function getCalculationHTML(nRowID){
     var d = document, newRow = d.getElementById(nRowID);
     if(newRow){
-        var pkData = getAcumaticaTableData('ctl00_phG_tab_t3_gridPackages_dataT0',nRowID);
+        var pkData = getAcumaticaTableData('ctl00_phG_tab_t6_gridPackages_dataT0',nRowID);
         var dBody = newRow.parentNode, h = '';
         var dRows = dBody.getElementsByTagName('TR'), cwTotal = 0, gwTotal = 0, vwTotal = 0, m3Total = 0, cbmTotal = 0, ctnTotal = 0;
         if(dRows.length>1){
@@ -209,7 +211,7 @@ function showAlertWeight(nRowID){
     return false;
 }
 function createInfoArea(nRowID){
-    var d = document, tabArea = d.getElementById('ctl00_phG_tab_t3_gridPackages_at_tlb_ul').parentNode;
+    var d = document, tabArea = d.getElementById('ctl00_phG_tab_t6_gridPackages_at_tlb_ul').parentNode;
     tabArea.style.position = 'relative';
     var nDiv = d.createElement('DIV');
     nDiv.style.cssText = 'position:absolute;top:0;right:2px;width:auto;font-size:10px;margin:0px 0px;overflow:hidden;';
@@ -238,14 +240,14 @@ function createInfoArea(nRowID){
     pBtn.onclick = function(){showAlertWeight(nRowID)};
 }
 function addWeightInfo(){
-    var d = document, nRowID = 'ctl00_phG_tab_t3_gridPackages_newRow', statusID = 'ctl00_phF_form_t0_edStatus_text';
+    var d = document, nRowID = 'ctl00_phG_tab_t6_gridPackages_newRow', statusID = 'ctl00_phF_form_t0_edStatus_text';
     var xStatus = d.getElementById(statusID);
     if(!xStatus.value){
         setTimeout(addWeightInfo,600); return;
     }
     createInfoArea(nRowID);
     setInterval(function(){
-        var pkTable = d.getElementById('ctl00_phG_tab_t3');
+        var pkTable = d.getElementById('ctl00_phG_tab_t6');
         if(pkTable) if(pkTable.style.display!='none') loadChargeWeightInfo(nRowID);
     },600);
 }

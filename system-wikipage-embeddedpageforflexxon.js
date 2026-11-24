@@ -168,7 +168,7 @@
       clearInterval(screenTimer);
       screenTimer=null;
       var sID = __screenID.replace(/\./g,'').toString();
-      if(sID == 'DB000073'||sID == 'DB000104') checkReqElementToRun([addCustomCSS,runWikiScriptMaster]);
+      if(sID == 'DB000073'||sID == 'DB000104'||sID =='DB000101'||sID =='DB000098') checkReqElementToRun([addCustomCSS,runWikiScriptMaster]);
     }
   },600);
 })();

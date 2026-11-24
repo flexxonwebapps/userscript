@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Acumatica Live - [Dashboard]: Share Links
 // @namespace    https://github.com/flexxonwebapps
-// @version      26.1124.3
+// @version      26.1124.4
 // @description  Dashboard customizable share links by adding header widgets.
 // @author       You
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
-// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-wikipage-dashboardsharelinks.js
-// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-wikipage-dashboardsharelinks.js
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/acumatica.user.sub.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/acumatica.user.sub.js
 // @icon         https://www.flexxon.com/wp-content/uploads/2021/04/cropped-Favicon-1-1.ico
 // @grant        none
 // ==/UserScript==

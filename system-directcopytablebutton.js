@@ -5,8 +5,8 @@
 // @description  An added button for copying inquiry data.
 // @author       Martin M
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
-// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-directcopytablebutton.js
-// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-directcopytablebutton.js
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/bundle.user.sub.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/bundle.user.sub.js
 // @icon         https://www.flexxon.com/wp-content/uploads/2021/04/cropped-Favicon-1-1.ico
 // @grant        none
 // ==/UserScript==

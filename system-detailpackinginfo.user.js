@@ -5,8 +5,8 @@
 // @description  Adding detail Weight & Volume information in Shipments "PACKAGES" tab, and display Total QTY at Invoices.
 // @author       You
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
-// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/bundle.user.sub.js
-// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/bundle.user.sub.js
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-detailpackinginfo.user.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-detailpackinginfo.user.js
 // @icon         https://www.flexxon.com/wp-content/uploads/2021/04/cropped-Favicon-1-1.ico
 // @grant        none
 // ==/UserScript==

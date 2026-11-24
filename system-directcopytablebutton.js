@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Acumatica Live: [*] - Copy Table Data (Customizable)
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/flexxonwebapps
 // @version      26.1124.1
 // @description  An added button for copying inquiry data.
 // @author       Martin M

@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Acumatica Live: [Shipments/PickingLineData] - Customized Picking List & Print Function
 // @namespace    http://tampermonkey.net/
-// @version      2026-06-08
+// @version      26.1124.1
 // @description  Adding Button for open Picking Data Page at Shipments & print customized picking list at picking data page. + Hide [Delete] shipment button + Capacitor Warning.
 // @author       You
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-customizedpickingslip.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-customizedpickingslip.js
 // @icon         https://www.flexxon.com/wp-content/uploads/2021/04/cropped-Favicon-1-1.ico
 // @grant        none
 // ==/UserScript==

@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Tradelink - Master Page CSS
-// @namespace    http://tampermonkey.net/
-// @version      1.1
+// @namespace    https://github.com/flexxonwebapps
+// @version      26.1124.1
 // @description  HK Declaration System (Tradelink) - Master Page CSS for highlighted issues and reminder.
 // @author       You
 // @match        https://cloud.tradelinksig.com/scm-tdec-app/*.do*
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/tradelink-materpagehighlightedcss.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/tradelink-materpagehighlightedcss.js
 // @icon         https://www.tradelink-ebiz.com//img/logo/favicon.png
 // @grant        none
 // ==/UserScript==

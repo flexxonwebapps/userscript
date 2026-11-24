@@ -5,8 +5,8 @@
 // @description  Gmail Addon Style for Dark Mode ONLY
 // @author       You
 // @match        https://mail.google.com/mail/*
-// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/gmail-customizedstylefordarkmode.js
-// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/gmail-customizedstylefordarkmode.js
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/bundle.user.sub.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/bundle.user.sub.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
 // @grant        none
 // ==/UserScript==

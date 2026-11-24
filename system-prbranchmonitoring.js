@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Acumatica Live: [Purchase Receipts] Checking Branch
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/flexxonwebapps
 // @version      26.1124.1
 // @description  Checking the branch data of PR, PO, and warehouse. Show alert if not matched. And highlight IPO Transfer Vendor PN.
 // @author       Martin M

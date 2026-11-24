@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Gmail Addon Style for Dark Mode
 // @namespace    http://tampermonkey.net/
-// @version      2025-05-15
+// @version      26.1124.2
 // @description  Gmail Addon Style for Dark Mode ONLY
 // @author       You
 // @match        https://mail.google.com/mail/*
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/gmail-customizedstylefordarkmode.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/gmail-customizedstylefordarkmode.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
 // @grant        none
 // ==/UserScript==

@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Tradelink - Declaration Page CSS
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      26.1124.1
 // @description  HK Declaration System (Tradelink) - Page CSS - Highlight & added hotkey for calculator.
 // @author       You
 // @match        https://cloud.tradelinksig.com/scm-tdec-app/*.do*
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/tradelink-declarationpagehighlightedinput.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/tradelink-declarationpagehighlightedinput.js
 // @icon         https://www.tradelink-ebiz.com//img/logo/favicon.png
 // @grant        none
 // ==/UserScript==

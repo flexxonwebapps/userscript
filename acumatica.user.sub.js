@@ -3,6 +3,6 @@
 // @description  Shared Acumatica scripts for Wiki function on dashboard.
 // @version      26.1124.2
 // @connect      script.google.com
-// @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-wikipage-dashboardsharelinks.js
-// @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-wikipage-embeddedpageforflexxon.js
+// @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-wikipage-dashboardsharelinks.user.js
+// @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-wikipage-embeddedpageforflexxon.user.js
 // ==/UserSubscribe==

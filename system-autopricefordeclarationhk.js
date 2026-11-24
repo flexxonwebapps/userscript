@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Acumatica Live: [PurchaseReceipt/PackingWithPrice] - Additional HK Declaration Price Info
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/flexxonwebapps
 // @version      26.1124.1
 // @description  Adding HK Declaration Price from the sum value of the column.
 // @author       You

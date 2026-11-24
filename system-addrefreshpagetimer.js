@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Acumatica Live: Reshresh-Page & Adjust-Height Automation
 // @namespace    http://tampermonkey.net/
-// @version      2026-10-06
+// @version      26.1124.1
 // @description  [Customizable] Set page by ID to auto-refresh the page by specific time.
 // @author       Martin M
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-addrefreshpagetimer.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-addrefreshpagetimer.js
 // @icon         https://www.flexxon.com/wp-content/uploads/2021/04/cropped-Favicon-1-1.ico
 // @grant        none
 // ==/UserScript==

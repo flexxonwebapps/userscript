@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tradelink - Declaration Page CSS
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/flexxonwebapps
 // @version      26.1124.1
 // @description  HK Declaration System (Tradelink) - Page CSS - Highlight & added hotkey for calculator.
 // @author       You

@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         Acumatica Live: [PurchaseReceipt/PackingWithPrice] - Additional HK Declaration Price Info
 // @namespace    http://tampermonkey.net/
-// @version      2026-11-12
+// @version      26.1124.1
 // @description  Adding HK Declaration Price from the sum value of the column.
 // @author       You
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-autopricefordeclarationhk.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-autopricefordeclarationhk.js
 // @icon         https://www.flexxon.com/wp-content/uploads/2021/04/cropped-Favicon-1-1.ico
 // @grant        none
 // ==/UserScript==

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Gmail Addon Style for Dark Mode
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/flexxonwebapps
 // @version      26.1124.2
 // @description  Gmail Addon Style for Dark Mode ONLY
 // @author       You

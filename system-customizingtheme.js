@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Acumatica Live: [*] - FLexxon Theme (Customizable)
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/flexxonwebapps
 // @version      26.1124.1
 // @description  Replace system color with Flexxon logo and defaulted as purple theme, but it is customizable.
 // @author       Martin M

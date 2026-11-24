@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Acumatica Live - [Dashboard]: EmbeddedPageForAcumaticaUsers
 // @namespace    https://github.com/flexxonwebapps
-// @version      26.1124.1
+// @version      26.1124.2
 // @description  Dashboard customizable share links by adding header widgets.
 // @author       You
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*

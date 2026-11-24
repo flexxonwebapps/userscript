@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Acumatica Live: [Shipments/Invoices] - Additional Weight, Volume, & Total Info
 // @namespace    https://github.com/flexxonwebapps
-// @version      26.1124.1
+// @version      26.1124.3
 // @description  Adding detail Weight & Volume information in Shipments "PACKAGES" tab, and display Total QTY at Invoices.
 // @author       You
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*

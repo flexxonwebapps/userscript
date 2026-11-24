@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Acumatica Live: [Kit Assembly] - Compulsory QTY Checking while HOLD Status
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/flexxonwebapps
 // @version      26.1124.1
 // @description  Double check the QTY prevent ZERO is existed at component.
 // @author       You

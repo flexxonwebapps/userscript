@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Acumatica Live - [Dashboard]: Share Links
 // @namespace    https://github.com/flexxonwebapps
-// @version      26.1124.2
+// @version      26.1124.3
 // @description  Dashboard customizable share links by adding header widgets.
 // @author       You
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
@@ -103,7 +103,7 @@
   }
   
   function addCustomCSS(){
-    var myCSS = `
+    var customCSS = `
               div.widget-captionbar div.widget_caption__title {
                 display:block;
                 position:relative;
@@ -133,7 +133,7 @@
               }
     `;
       var d = document, sTag = d.createElement('STYLE');
-      var fCSS = d.createTextNode(s);
+      var fCSS = d.createTextNode(customCSS);
       sTag.appendChild(fCSS);
       var h = d.getElementsByTagName('head')[0]||d.body;
       h.appendChild(sTag);

@@ -5,8 +5,8 @@
 // @description  Dashboard customizable share links by adding header widgets.
 // @author       You
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
-// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/acumatica.user.sub.js
-// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/acumatica.user.sub.js
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-wikipage-embeddedpageforflexxon.user.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-wikipage-embeddedpageforflexxon.user.js
 // @icon         https://www.flexxon.com/wp-content/uploads/2021/04/cropped-Favicon-1-1.ico
 // @grant        none
 // ==/UserScript==

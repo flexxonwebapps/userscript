@@ -5,8 +5,8 @@
 // @description  Double check the QTY prevent ZERO is existed at component.
 // @author       You
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
-// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-assemblysafetycheck.js
-// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-assemblysafetycheck.js
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/bundle.user.sub.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/bundle.user.sub.js
 // @icon         https://www.flexxon.com/wp-content/uploads/2021/04/cropped-Favicon-1-1.ico
 // @grant        none
 // ==/UserScript==

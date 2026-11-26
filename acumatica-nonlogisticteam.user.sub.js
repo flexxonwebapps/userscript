@@ -1,5 +1,5 @@
 // ==UserSubscribe==
-// @name         Acumatica Plugins for Non-Logistic teams
+// @name         Acumatica Plugins for Flexxon Non-Logistic teams
 // @description  Shared UserScripts for Acumatica operations by Non-Logistic teams.
 // @version      26.1126.1
 // @connect      script.google.com

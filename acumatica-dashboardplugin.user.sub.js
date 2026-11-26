@@ -1,5 +1,5 @@
 // ==UserSubscribe==
-// @name         Acumatica Plugins for Flexxon Dashboard & Wiki scripting required Users.
+// @name         Acumatica Plugins for Flexxon Dashboard & Wiki scripting required Users
 // @description  Shared UserScripts for Acumatica dashboard addon and Wiki Scripting function.
 // @version      26.1126.1
 // @connect      script.google.com

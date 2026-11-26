@@ -6,3 +6,15 @@
 // @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-assemblysafetycheck.user.js
 // @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-mrpdisplayaddonfeatures.user.js
 // ==/UserSubscribe==
+
+/*
+  ============
+  ✅ system-assemblysafetycheck.user.js
+  🔔  Acumatica Live: [Kit Assembly] - Compulsory QTY Checking while HOLD Status
+  💡  Acumatica System - Double check the QTY prevent ZERO is existed at component.
+
+  ✅ system-mrpdisplayaddonfeatures.user.js
+  🔔  Acumatica Live: [FLX MRP Display] - Add up QTY.on.Hand to Assigned Columns & add copy button
+  💡  Acumatica System - Add up QTY.on.Hand to related Available Acutal and Total Demand/Supply columns, with copy existing data button.
+  ============
+*/

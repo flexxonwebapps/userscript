@@ -5,8 +5,8 @@
 // @description  HK Declaration System (Tradelink) - Master Page CSS for highlighted issues and reminder.
 // @author       You
 // @match        https://cloud.tradelinksig.com/scm-tdec-app/*.do*
-// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/tradelink-materpagehighlightedcss.user.js
-// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/tradelink-materpagehighlightedcss.user.js
+// @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/tradelink-masterpagehighlightedcss.user.js
+// @downloadURL  https://raw.githubusercontent.com/flexxonwebapps/userscript/main/tradelink-masterpagehighlightedcss.user.js
 // @icon         https://www.tradelink-ebiz.com//img/logo/favicon.png
 // @grant        none
 // ==/UserScript==

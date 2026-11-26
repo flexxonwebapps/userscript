@@ -13,6 +13,7 @@
 // ==/UserSubscribe==
 
 /*
+  ============
   ✅ system-customizedpickingslip.user.js
   🔔  Acumatica Live: [Purchase Receipts] Checking Branch
   💡  Acumatica System - Adding Button for open Picking Data Page at Shipments & print customized picking list at picking data page. + Hide [Delete] shipment button + Capacitor Warning.
@@ -40,4 +41,5 @@
   ✅ tradelink-masterpagehighlightedcss.user.js
   🔔  Tradelink - Master Page CSS
   💡  HK Declaration System (Tradelink) - Master Page CSS for highlighted issues and reminder.
+  ============
 */

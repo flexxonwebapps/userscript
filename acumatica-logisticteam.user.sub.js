@@ -1,6 +1,6 @@
 // ==UserSubscribe==
 // @name         Acumatica Plugins for Flexxon Logistic Team
-// @description  Shared UserScripts for the Logistic Team
+// @description  Shared UserScripts for Acumatica opertation by Logistic Team
 // @version      26.1126.1
 // @connect      script.google.com
 // @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-autopricefordeclarationhk.user.js

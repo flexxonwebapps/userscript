@@ -4,7 +4,6 @@
 // @version      26.1126.2
 // @connect      script.google.com
 // @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-customizedpickingslip.user.js
-// @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-customizingtheme.user.js
 // @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-detailpackinginfo.user.js
 // @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-prbranchmonitoring.user.js
 // @scriptUrl    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-autopricefordeclarationhk.user.js
@@ -17,10 +16,6 @@
   ✅ system-customizedpickingslip.user.js
   🔔  Acumatica Live: [Purchase Receipts] Checking Branch
   💡  Acumatica System - Adding Button for open Picking Data Page at Shipments & print customized picking list at picking data page. + Hide [Delete] shipment button + Capacitor Warning.
-
-  ✅ system-customizingtheme.user.js
-  🔔  Acumatica Live: [*] - FLexxon Theme (Customizable)
-  💡  Acumatica System - Replace system color with Flexxon logo and defaulted as purple theme, but it is customizable.
   
   ✅ system-detailpackinginfo.user.js
   🔔  Acumatica Live: [Shipments/Invoices] - Additional Weight, Volume, & Total Info

@@ -10,15 +10,21 @@
 // ==/UserSubscribe==
 
 /*
+  ============
   ✅ gmail-customizedstylefordarkmode.user.js
-  💡  Gmail customized theme for dark mode.
+  🔔  Gmail Theme for Dark Mode
+  💡  Gmail customizble addon Style for Dark Mode ONLY
 
   ✅ system-customizingtheme.user.js
-  💡  Acumatica customizable theme (default with Flexxon logo and Purple color)
+  🔔  Acumatica Live: [*] - FLexxon Theme (Customizable)
+  💡  Replace system color with Flexxon logo and defaulted as purple theme, but it is customizable.
 
   ✅ system-addrefreshpagetimer.user.js
-  💡  Acumatica add timer for refresh page in loop (Use for preventing page expired and keep renewing data)
+  🔔  Acumatica Live: Reshresh-Page & Adjust-Height Automation
+  💡  Customizable Page-ID for auto-refresh the page by specific time.
   
   ✅ system-directcopytablebutton.user.js
-  💡  Acumatica System added COPY button for each inquiry page for users to copy the existing table data in one click.
+  🔔  Acumatica Live: [*] - Copy Table Data (Customizable)
+  💡  An added button for users to copy existing inquiry table data by one-click
+  ============
 */

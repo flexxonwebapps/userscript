@@ -2,7 +2,7 @@
 // @name         Acumatica Live: [*] - Copy Table Data (Customizable)
 // @namespace    https://github.com/flexxonwebapps
 // @version      26.1124.1
-// @description  An added button for copying inquiry data.
+// @description  An added button for users to copy existing inquiry table data by one-click
 // @author       Martin M
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
 // @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-directcopytablebutton.user.js

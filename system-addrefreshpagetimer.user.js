@@ -2,7 +2,7 @@
 // @name         Acumatica Live: Reshresh-Page & Adjust-Height Automation
 // @namespace    https://github.com/flexxonwebapps
 // @version      26.1124.1
-// @description  [Customizable] Set page by ID to auto-refresh the page by specific time.
+// @description  Customizable Page-ID for auto-refresh the page by specific time.
 // @author       Martin M
 // @match        https://flexxonlive.go.akamai-access.com/FlexxonLive/*
 // @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/system-addrefreshpagetimer.user.js

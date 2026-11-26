@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Gmail Addon Style for Dark Mode
+// @name         Gmail Theme for Dark Mode
 // @namespace    https://github.com/flexxonwebapps
 // @version      26.1124.2
-// @description  Gmail Addon Style for Dark Mode ONLY
+// @description  Gmail customizble addon Style for Dark Mode ONLY
 // @author       You
 // @match        https://mail.google.com/mail/*
 // @updateURL    https://raw.githubusercontent.com/flexxonwebapps/userscript/main/gmail-customizedstylefordarkmode.user.js
